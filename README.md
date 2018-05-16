@@ -15,6 +15,7 @@
     - [Does Optimail provide an email preference center?](#email-pref)
     - [Does Optimail have a re-subscribe option?](#resub)
 <HR>
+
 ### <a id="setup"></a>Optimail Setup Process
 Before you can begin sending customer email campaigns using Optimove, you will need to perform the following steps.
 
