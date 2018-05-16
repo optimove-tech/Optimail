@@ -1,8 +1,8 @@
 
 
 ## Getting Started with Optimail
+<a id="intro"></a>Congratulations on choosing Optimail, Optimove’s native email delivery platform. This document describes the steps involved in creating your Optimail account and configuring it for use, as well as answers to commonly asked questions about this process.
 
-- [Introduction](#intro)
 - [Optimail Setup Process](#setup)
 - [Synchronizing Unsubscribed Customers](#sync-unsub)
 - [Improving Email Deliverability](#improve-email-del)
@@ -14,9 +14,7 @@
     - [How should I manage unsubscribed users?](#man-unsub)
     - [Does Optimail provide an email preference center?](#email-pref)
     - [Does Optimail have a re-subscribe option?](#resub)
-
-<a id="intro"></a>Congratulations on choosing Optimail, Optimove’s native email delivery platform. This document describes the steps involved in creating your Optimail account and configuring it for use, as well as answers to commonly asked questions about this process.
-
+<HR>
 ### <a id="setup"></a>Optimail Setup Process
 Before you can begin sending customer email campaigns using Optimove, you will need to perform the following steps.
 
