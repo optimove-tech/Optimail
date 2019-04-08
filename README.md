@@ -1,5 +1,5 @@
 
----
+---r
 
 ## Getting Started with Optimail
 <a id="intro"></a>Congratulations on choosing Optimail, Optimove’s native email delivery platform. This document describes the steps involved in creating your Optimail account and configuring it for use, as well as answers to commonly asked questions about this process.
