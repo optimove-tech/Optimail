@@ -1,7 +1,7 @@
 ## Frequently Asked Questions
 <a id="intro"></a>
    - [Domains](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Frequently%20Asked%20Questions/Domains.txt)
-   - [Unsubscribes](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Frequently%20Asked%20Questions/Unsubscribes.txt)
+   - [Unsubscribes](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/Unsubscribes)
    - [Metrics](#)
    - [What is IP warming?](#)
    - [Migrating Sendgrid current account to Optimail](#)
