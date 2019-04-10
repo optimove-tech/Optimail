@@ -1,4 +1,4 @@
-## Unsubscribes
+## Domains
 <a id="intro"></a>
-   - [How should I manage unsubscribed users?](#)
+   - [What is a domain name? ](#what-is-domain)
 <HR>
