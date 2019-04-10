@@ -4,7 +4,7 @@
    - [Unsubscribes](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Frequently%20Asked%20Questions/Unsubscribes.txt)
    - [Metrics](#)
    - [What is IP warming?](#)
-   - [Migrating old Sendgrid account to Optimove](#)
+   - [Migrating Sendgrid current account to Optimail](#)
    - [Do I need more than one IP address?](#)
    - [How many dedicated IP addresses do I need?](#)
    - [What is a domain name? ](#what-is-domain)
