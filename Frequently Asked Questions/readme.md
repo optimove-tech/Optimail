@@ -8,5 +8,4 @@
    - [Do I need more than one IP address?](#)
    - [How many dedicated IP addresses do I need?](#)
    - [Does Optimail provide an email preference center?](#)
-   - [Does Optimail have a re-subscribe option?](#)
 <HR>
