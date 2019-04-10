@@ -4,5 +4,5 @@
 - [Optimail Setup Process](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Optimail%20Setup%20Process)
 - [Synchronizing Unsubscribed Customers](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Optimail%20Setup%20Process)
 - [Improving Email Deliverability](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Improving%20Email%20Deliverability)
-- [Frequently Asked Questions](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Frequently%20Asked%20Questions)
+- [Frequently Asked Questions](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions)
 
