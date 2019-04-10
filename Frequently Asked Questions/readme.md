@@ -7,7 +7,6 @@
    - [Migrating Sendgrid current account to Optimail](#)
    - [Do I need more than one IP address?](#)
    - [How many dedicated IP addresses do I need?](#)
-   - [What is a domain name? ](#what-is-domain)
    - [Does Optimail provide an email preference center?](#)
    - [Does Optimail have a re-subscribe option?](#)
 <HR>
