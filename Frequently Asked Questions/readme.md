@@ -1,10 +1,8 @@
 ## Frequently Asked Questions
-<a id="intro"></a>
+<a id="faq"></a>
    - [Domains](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/Domains)
    - [Unsubscribes](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/Unsubscribes)
-   - [Metrics](#)
-   - [What is IP warming?](#)
-   - [Migrating Sendgrid current account to Optimail](#)
-   - [Do I need more than one IP address?](#)
-   - [How many dedicated IP addresses do I need?](#)
+   - [Metrics](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/Metrics)
+   - [IP](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/IP)
+   - [General](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/General)
 <HR>

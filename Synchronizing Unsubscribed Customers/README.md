@@ -1,8 +1,12 @@
-## Getting Started with Optimail
-<a id="intro"></a>Congratulations on choosing Optimail, Optimove’s native email delivery platform. This document describes the steps involved in creating your Optimail account and configuring it for use, as well as answers to commonly asked questions about this process.
+## Synchronizing Unsubscribed Customers from an existing ESP
+<a id="sync-unsub"></a>
 
-- [Optimail Setup Process](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Optimail%20Setup%20Process)
-- [Synchronizing Unsubscribed Customers](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Optimail%20Setup%20Process)
-- [Improving Email Deliverability](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Improving%20Email%20Deliverability)
-- [Frequently Asked Questions](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions)
+To ensure that customers who have already unsubscribed from receiving emails from your company do not receive emails from Optimail, it is important to synchronize the list of unsubscribed customers from your existing email service provider (ESP) with Optimail.
 
+If your existing ESP is fully integrated with Optimove, Optimove will automatically synchronize the unsubscribed lists between Optimail and your existing ESP. If you are not sure if this is the case, ask your CSM.
+
+If your existing ESP is not fully integrated with Optimove, this synchronization must be performed manually. To do so, send your CSM an up-to-date CSV file containing only the email addresses of all customers who have already unsubscribed from your marketing email list. Your CSM will update Optimail accordingly. You need to send this list to your CSM prior to the date of the first campaign to be sent with Optimail. If you have multiple IP addresses, make sure to inform your CSM which unsubscribe list relates to which Optimail IP address.
+
+If you plan to continue sending emails from your existing ESP as well as Optimail, you will need to continuously synchronize your unsubscribed between the two systems. Consult with your CSM to make sure this is handled appropriately.
+
+<HR>
