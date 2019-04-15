@@ -3,7 +3,5 @@
    - [Domains](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/Domains)
    - [Unsubscribes](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/Unsubscribes)
    - [Metrics](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/Metrics)
-   - [IP](#)
-   - [Migrating Sendgrid current account to Optimail](#)
-
+   - [IP](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions/IP)
 <HR>
