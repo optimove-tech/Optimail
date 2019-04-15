@@ -1,4 +1,4 @@
 ## Domains
 <a id="intro"></a>
-     - [Migrating Sendgrid current account to Optimail](#)
+    - [Migrating Sendgrid current account to Optimail](#)
 <HR>
