@@ -1,5 +1,5 @@
 ## Synchronizing Unsubscribed Customers from an existing ESP
-<a id="intro"></a>
+<a id="sync-unsub"></a>
 
 To ensure that customers who have already unsubscribed from receiving emails from your company do not receive emails from Optimail, it is important to synchronize the list of unsubscribed customers from your existing email service provider (ESP) with Optimail.
 
