@@ -1,8 +1,11 @@
-## Getting Started with Optimail
-<a id="intro"></a>Congratulations on choosing Optimail, Optimove’s native email delivery platform. This document describes the steps involved in creating your Optimail account and configuring it for use, as well as answers to commonly asked questions about this process.
+## Optimail Setup Process
+<a id="intro"></a>
 
-- [Optimail Setup Process](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Optimail%20Setup%20Process)
-- [Synchronizing Unsubscribed Customers](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Optimail%20Setup%20Process)
-- [Improving Email Deliverability](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Improving%20Email%20Deliverability)
-- [Frequently Asked Questions](https://github.com/optimove-tech/Optimail/tree/Roni-Optimail/Frequently%20Asked%20Questions)
+Before you can begin sending customer email campaigns using Optimove, you will need to perform the following steps.
 
+If customer email addresses are not already included in the tables provided to Optimove as part of your daily data transfer, add the “email address” field to your customer tables.
+Complete and submit the Optimail Request Form. After steps 1 and 2 have been completed, your CSM will send you instructions for adding DNS records to your domain name servers and validating them.
+After the DNS records have been validated, Optimove will configure your Optimail account. Your CSM will notify you when you may start using Optimail.
+To get started working with Optimail, you will need to prepare your first email templates and send some test campaigns. For detailed instructions on these steps, see this Academy article.
+Warm up your account to establish a positive sending reputation. See the “Improving Email Deliverability” section, below, for Optimail best practices.
+<HR>
