@@ -1,5 +1,5 @@
 ## Optimail Setup Process
-<a id="intro"></a>
+<a id="setup"></a>
 
 Before you can begin sending customer email campaigns using Optimove, you will need to perform the following steps.
 
