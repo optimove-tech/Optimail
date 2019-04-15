@@ -1,4 +1,4 @@
-## Domains
+## IP
 <a id="intro"></a>
    - [What is IP warming?](#what-is-domain)
    - [Do I need more than one IP address?](#)
