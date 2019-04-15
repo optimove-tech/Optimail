@@ -1,5 +1,5 @@
 ## Improving Email Deliverability
-<a id="intro"></a>
+<a id="improve-email-del"></a>
 Deliverability refers to the percentage of emails that are actually delivered to recipients’ inboxes. For obvious reasons, it is important to do everything possible to maximize your deliverability when using Optimail. We recommend implementing the following best practices:
 
  - Regularly send emails to your most engaged customers (those who tend to respond to them) and to those who have specifically opted in to receive your emails.
