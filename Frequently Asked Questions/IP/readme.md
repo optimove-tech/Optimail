@@ -1,4 +1,6 @@
 ## Domains
 <a id="intro"></a>
-   - [What is a domain name? ](#what-is-domain)
+   - [What is IP warming?](#what-is-domain)
+   - [Do I need more than one IP address?](#)
+   - [How many dedicated IP addresses do I need?](#)
 <HR>
