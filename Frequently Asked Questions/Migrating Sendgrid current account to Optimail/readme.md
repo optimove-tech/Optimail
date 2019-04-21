@@ -8,7 +8,7 @@
 ### <a id="existing-ip"></a>Can I use my existing IP?
 Yes, you can use your existing IP. However, the IP/domain will be moved to Optimail Sub Account.
 
-### <a id="ip-warmup-mig"></a>Do I still need to do IP warmup?
+### <a id="ip-warmup-mig"></a>Do I still need an IP warmup?
 Regardless if you moved your existing IP/domain to Optimail Sub Account, you will have to go through a "light" IP warmup.
 Even though the sending domain and IPs remain the same, small changes in SendGrid configurations are still required.
 The "light" warmup process defers a lot on the daily volume, the sending domain used, the current reputation of the sending domain and IP. 
