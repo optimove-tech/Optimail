@@ -13,5 +13,11 @@ Deliverability refers to the percentage of emails that are actually delivered to
  - Learn how your template content can affect deliverability. For example, avoid using exclamation marks and currency symbols in your subject line, as well as phrases in the email body that can trigger spam filters.
  - To ensure high open and click rates during the IP warm-up period, it is highly recommended to provide Optimove with a list of your customers’ last clicked and opened events. You can also send Optimove a list of all customers who have opened or clicked emails in the past 60-90 days.
  - Learn more about email deliverability [here](https://sendgrid.com/resource/email-deliverability/).
+ 
+#### <a id="what-is-deliverability"></a>My emails are not being recieved 
+There are various reasons why the email wasn't received. One of the reasons might be misconfigured DNS records.
+When you were onboarding Optimail, you were asked to update your DNS records (CNAME and A records). If these records were accidentally removed or changed, your deliverability might be affected.
+Usually, if the records are misconfigured, authentication failures could occur and emails could land in the spam folder. Some ISPs may actually block inbound email.
+ 
 <HR>
 
