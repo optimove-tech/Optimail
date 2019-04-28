@@ -16,8 +16,11 @@ Normally, it shouldn't take longer than 5-6 days. However, it could take more de
 
 
 
-### <a id="metrics-stats"></a>Could metrics stats be migrated?
+### <a id="metrics-stats"></a>Can metrics stats be migrated?
 Metrics statistics could not be migrated from one account to another. If you would like to add data to your new Optimail account, you may export a report (up to 30 days only) from your existing Sendgrid account and ask Optimove to manually add the statistics into your new Optimail account.
 
+
+### <a id="metrics-stats"></a>Can I migrate my unsubscribes?
+Yes, you can migrate you unsubscribes. Follow the insructions [here](https://github.com/optimove-tech/Optimail/blob/Roni-Optimail/Frequently%20Asked%20Questions/Unsubscribes/readme.md#sync-unsub).
 
 <HR>
