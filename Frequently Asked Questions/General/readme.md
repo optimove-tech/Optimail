@@ -1,23 +1,23 @@
-## IP
-<a id="IP"></a>
-   - [What is IP warming?](#ip-warm)
-   - [Do I need more than one IP address?](#one-ip)
-   - [How many dedicated IP addresses do I need?](#how-many-ip)
+## General Questions
+<a id="general"></a>
+   - [Does Optimail Supports MFA?](#mfa)
    
  
-#### <a id="ip-warm"></a>What is IP warming?
-IP warming is the process of gradually increasing the volume of mail sent with a new IP address, in order to establish a positive sending reputation with Internet Services Providers (ISPs).
+#### <a id="mfa"></a>Does Optimail Supports MFA?
+For 2FA activation please follow [Sendgrid documentation](https://sendgrid.com/docs/ui/account-and-settings/two-factor-authentication/)
 
-When ISPs observe large volumes of email suddenly coming from a new or “cold” IP address, they may take notice and begin monitoring the traffic coming from that IP. Since ISPs treat email volume as a key determining factor when detecting spam, it is best to begin sending low to moderate volumes of email, eventually working your way up to larger volumes.
+1.	Via SMS 
+a.	We will need to register a mobile number 
+i. You can only add one mobile number – does not support multi mobile number authentication
+d.	When registration is complete, each time you log-in to Sendgrid you will be migrated to a 2ndd screen to enter a code you will receive via SMS. 
+e.	Notes:
+i. You will not be able to log in when cellular service is not available
+ii. The mobile sms receiver may be charged a SMS fee depending on their country/state messaging law
 
-A gradual warm-up does not always guarantee a perfect sending reputation. It is still important to follow the [recommendations](https://sendgrid.com/blog/10-tips-to-keep-email-out-of-the-spam-folder/) mentioned above, in Improving Email Deliverability.
+2.	Via Auth App (All inquiries about Authy should go through Authy Support)
+a.	Need to register your mobile (same as SMS)
+b.	For first time registration, it sends an SMS to continue the registration process (similar to SMS)
+c.	Download the app Auth App
 
-#### <a id="one-ip"></a>Do I need more than one IP address?
-There are two main situations in which when an additional IP address is advisable:
 
- 1. High sending volume: If you send batches of over one million email messages and it’s important that they are delivered within a certain timeframe, it may be necessary to use multiple IP addresses.
- 2. Separating types of emails: Since each IP address maintains its own deliverability reputation, sending different types of emails via different IP addresses will keep the reputation of each type of email separate. Some examples of email types that you might want to keep separate are transactional messages (e.g., order confirmations, shipping updates), marketing/promotional messages, newsletters and different brands managed by a single company.
-
-#### <a id="how-many-ip"></a>How many dedicated IP addresses do I need?
-For email volumes up to 1.5M per day, we advise using at least two IP addresses. Learn more [here](https://sendgrid.com/docs/assets/IPWarmupSchedule.pdf).
 <HR>
