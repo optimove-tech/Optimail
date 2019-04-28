@@ -22,7 +22,7 @@ For example: for transactional emails use: tran.example.com and for marketing mk
 NOTE: FROM and REPLY TO address should match the domain name. For example: info@mkg.example.com.
 
 #### <a id="change-domain-warmup"></a>I want to change my domain, will an IP warmup be needed?
-Yes. First, you will have to update your Sender Authentication records (your DNS records: Domain authenticationm link branding and rDNS). The reputation is specific to the IP/domain combination and any change requires a new warmup.
+Yes, the reputation is specific to the IP/domain combination and any change requires a new warmup.
 
 
 <HR>
