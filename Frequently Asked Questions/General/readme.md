@@ -14,7 +14,7 @@ For 2FA activation please follow [Sendgrid documentation](https://sendgrid.com/d
 
 2.	Via Auth App (All inquiries about Authy should go through Authy Support)
    - Need to register your mobile (same as SMS)
-   - Download the app Auth App
+   - Download the Auth App
    
 
 <HR>
