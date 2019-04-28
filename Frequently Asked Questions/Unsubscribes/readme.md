@@ -30,5 +30,5 @@ To implement Optimail Preference Center, please contact your CSM.
 
 #### <a id="list-unsubscribe"></a>Can I use List-Unsubscribe header?
 List-Unsubscribe header is an optional email header you can add to your email messages.
-If you're using Optimail subscription tracking the List-Unsubscribe will be added automatically, both the mailto: and http: versions will be inserted. However, if you're not using Optimail subscription tracking you will need to insert both manually. However, currently Optimial does not support this functionality and unless using Optimail subscription tracking, List-Unsubscribe header could not be implemented.
+If you're using Optimail subscription tracking the List-Unsubscribe will be added automatically, both the mailto: and http: versions will be inserted. However, if you are the one managing your unsubscribes, this option is not available. Currently Optimail does not support this functionality unless using Optimail subscription tracking.
 <HR>
