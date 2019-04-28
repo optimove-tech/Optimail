@@ -3,6 +3,7 @@
    - [How should I manage unsubscribed users?](#man-unsub)
    - [How to syncornize unsubscribed customers from existing ESP?](#sync-unsub)
    - [Does Optimail have a re-subscribe option?](#resub)
+   - [What is Optimail Preference Center?](#pref)
    - [Can I use List-Unsubscribe header?](#list-unsubscribe)
    
    
@@ -19,7 +20,13 @@ If your existing ESP is not fully integrated with Optimove, this synchronization
 If you plan to continue sending emails from your existing ESP as well as Optimail, you will need to continuously synchronize your unsubscribed between the two systems. Consult with your CSM to make sure this is handled appropriately.
 
 #### <a id="resub"></a>Does Optimail have a re-subscribe option?
-Optimail does not offer this as a built-in feature, however you may create a landing page at which a customer can re-subscribe to your email list. Once you receive an email address in this way, you will need to manually remove the address from the unsubscribers list in Optimail.
+Yes, Optimove does offer re-subscribe option through our [Preference Center](#pref) feature.
+
+#### <a id="pref"></a>What is Optimail Preference Center?
+Optimail Preference Center allows your customers to easily choose which types of email communications they receive from you, and to update those choices at any time. For further informtaion, please read [this article](https://academy.optimove.com/successful-campaigns/implementing-optimail-preference-center) in Optimove Academy.
+To implement Optimail Preference Center, please contact your CSM.
+
+
 
 #### <a id="list-unsubscribe"></a>Can I use List-Unsubscribe header?
 List-Unsubscribe header is an optional email header you can add to your email messages.
