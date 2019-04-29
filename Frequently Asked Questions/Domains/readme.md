@@ -17,7 +17,7 @@ This is not recommended, as a conflight might occur and it might affect your rep
 For example: instead of using example.com, use email.exmple.com
 
 #### <a id="same-domain-tr-mkg"></a>Can I use the same domain for both my marketing and transactional accoounts? 
-This is not recommended, as a conflight might occur and it might affect your reputation. We recommend using differnt subdomain to avoid any conflicts.
+This is not recommended, as a conflit might occur and it might affect your reputation. We recommend using differnt subdomain to avoid any conflicts.
 For example: for transactional emails use: tran.example.com and for marketing mkg.example.com.
 NOTE: FROM address should match the domain name. For example: info@mkg.example.com.
 
