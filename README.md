@@ -21,7 +21,7 @@
 Before you can begin sending customer email campaigns using Optimove, you will need to perform the following steps.
 
  1. If customer email addresses are not already included in the tables provided to Optimove as part of your daily data transfer, add the “email address” field to your customer tables. 
- 2. Complete and submit the [Optimail Request Form](https://optimoveteams.atlassian.net/servicedesk/customer/portal/). After steps 1 and 2 have been completed, 
+ 2. Complete and submit the [Optimail Request Form](https://optimoveteams.atlassian.net/servicedesk/customer/portal/1/group/4). After steps 1 and 2 have been completed, 
     your CSM will send you instructions for adding DNS records to your domain name servers and validating them. 
  3. After the DNS records have been validated, Optimove will configure your Optimail account. Your CSM will notify you when you may start using Optimail. 
  4. To get started working with Optimail, you will need to prepare your first email templates and send some test campaigns. For detailed instructions on these steps, see [this Academy article](https://academy.optimove.com/successful-campaigns/getting-started-with-optimail).
