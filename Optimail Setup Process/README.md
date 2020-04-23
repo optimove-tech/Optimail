@@ -8,4 +8,5 @@ Before you can begin sending customer email campaigns using Optimove, you will n
 3. After the DNS records have been validated, Optimove will configure your Optimail account. Your CSM will notify you when you may start using Optimail. <br>
 4. To get started working with Optimail, you will need to prepare your first email templates and send some test campaigns. For detailed instructions on these steps, see this Academy article. <br>
 5. Warm up your account to establish a positive sending reputation. See the “Improving Email Deliverability” section, below, for Optimail best practices.
+6. this is a test to show bla bla
 <HR>
