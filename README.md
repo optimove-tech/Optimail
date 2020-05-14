@@ -15,6 +15,8 @@
     - [How should I manage unsubscribed users?](#man-unsub)
     - [Does Optimail provide an email preference center?](#email-pref)
     - [Does Optimail have a re-subscribe option?](#resub)
+    - [Links Privacy Error](#privacy)
+    
 <HR>
 
 ### <a id="setup"></a>Optimail Setup Process
@@ -75,3 +77,48 @@ Optimail does not currently include this functionality. Once a user clicked has 
 
 #### <a id="resub"></a>Does Optimail have a re-subscribe option?
 Optimail does not offer this as a built-in feature, but you can offer this to your customers as follows: Create a landing page at which a customer can re-subscribe to your email list. Once you receive an email address in this way, you will need to manually remove the address from the unsubscribers list in Sendgrid.
+
+#### <a id="privacy"></a>Why do my clients get a privacy error while clicking the email's links?
+The links in Optimail's emails are tracked by SendGrid, this allows SendGrid to track all clicks per email sent. This option is called "Click Tracking" and is set to the defult option while configuring Optimail accounts.
+
+Enabling Click Tracking through SendGrid allows SendGrid to track all clicks per email sent. Once enabled, SendGrid will wrap the links and URLs in your Optimail templates so that they first are forwarded to SendGrid’s servers and the click is properly tracked, and then instantly redirected to the intended location of the link. Up to 1,000 links per template can be tracked.
+However, you may find that once your Optimove success team enables Click Tracking for your account, you encounter a “Wrong Link” error page or “Your connection is not private” message.
+This happens because Click Tracking does not support HTTPS URLs or links. If the links to your site are encrypted.  To solve for this, it’s imperative that you consider a long-term solution that modifies where you’re sending traffic to SendGrid from  before Click Tracking is enabled.
+
+#### Turn off HSTS
+One option to consider is turning off HSTS.  This is what is forcing all of the links and URLs in your templates to be sent using HTTPS.  By turning off HSTS and using HTTP links in your links and using an SSL certificate, the issue will be fixed and click tracking can be enabled successfully.
+#### Use a CDN to Configure an SSL Certificate
+Below are the steps to enable SSL Click Tracking for your Optimail account. Note that these steps are not unique to a specific CDN (content delivery network). Should you require detailed support based on your specific CDN, we recommend you work directly with the support team at your CDN.
+1.	Create an SSL Certificate for your authenticated domain
+Reach out to your CDN or DNS provider to request and/or manage this certificate.  We do not recommend creating wildcard certificates as they have proven not to be stable for click tracking purposes.  As Optimove and SendGrid are not the record owners for this domain, we are unable to make or request the SSL certificate ourselves.
+NOTE: Make sure your CDN has the SSL certificate forward all traffic to sendgrid.net. This is necessary so tracking details can be ingested and links can be resolved to the correct location.
+
+2.	Point white label link domain to SSL certificate
+Once your SSL certificate has been created, you can start forwarding traffic to this certificate.  Just as you pointed white label link CNAME, you can edit the DATA portion in the domain’s DNS to point to the CDN handling your domain’s SSL certificate.  For example, if you are using a content delivery network you would want to update your records from your authenticated domain pointing to sendgrid.net (i.e. em.yourbrand.com  sendgrid.net) to now have the authenticated domain point to the SSL certificate (i.e. em.yourbrand.com  cdm.em.yourbrand.com)
+
+Now, when someone clicks on one of the links in your template, it will point to the SSL certificate which will forward the traffic back to sendgrid.net.
+
+3.	Confirm SSL creation and updated link pointing with Optimove team
+Once you’ve completed steps 1 and 2, let your Optimove success team know and we’ll go ahead and turn SSL Click Tracking on for you.  Before we do, however, we’ll make sure to ensure the following:
+a.	The white label link is assigned to the sub-user requesting SSL Click Tracking
+b.	The white label link is not pointing at sendgrid.net any longer
+c.	The white label link domain is terminating is an SSL connection correctly 
+
+
+#### Use a custom SSL Certificate
+Below are the steps to enable SSL Click Tracking for your Optimail account using your own proxy rather than a CDN.
+1.	Prepare a proxy
+Prepare the proxy (like a web application, NGINX, or Amazon API Gateway for example) to take all traffic for your branded link (link.yourdomain.com) and forward it to sendgrid.net.
+
+2.	Configure the proxy
+Set up the proxy to use HTTP or HTTPS.  For HTTPS, you will want to provide a valid SSL certificate for your branded domain (link.yourdomain.com).
+
+Forward  traffic by setting Host HTTP header to your branded domain and point the CNAME record to your proxy.
+3.	Confirm proxy configuration and updated link pointing with Optimove team
+Once you’ve completed steps 1 and 2, let your Optimove success team know and we’ll go ahead and turn SSL Click Tracking on for you.  Before we do, however, we’ll make sure to ensure the following:
+a.	The white label link is assigned to the sub-user requesting SSL Click Tracking
+b.	The white label link is not pointing at sendgrid.net any longer
+c.	The white label link domain is terminating is an SSL connection correctly 
+
+
+
