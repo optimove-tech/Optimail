@@ -120,5 +120,7 @@ a.	The white label link is assigned to the sub-user requesting SSL Click Trackin
 b.	The white label link is not pointing at sendgrid.net any longer
 c.	The white label link domain is terminating is an SSL connection correctly 
 
+#### Why is this happening now? We were able to successfully click through on links for months and then all of a sudden we’re having this privacy issue?
 
+Factors outside of Optimail and SendGrid continually change. These include browser settings and configurations, inbox preferences and settings, firewalls, devices and more. While it’s not atypical to see HTTPS links work _sometimes_, it’s unlikely that they’ll consistently work all the time. And moreover, if we see an increase in errors overall or – like I’m noticing now, a global increase across more than 1 client account, it’s fair to say that their functionality isn’t reliable. In that case, the recommendation is to utilize SSL click tracking.
 
